@@ -1,14 +1,16 @@
 {
   "expo": {
-    "name": "event",
+    "name": "event management",
     "slug": "event",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/event.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.bemal.eventapp",
+      "versionCode": 1
     },
     "updates": {
       "fallbackToCacheTimeout": 0
